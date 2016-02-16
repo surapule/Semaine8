@@ -1,0 +1,422 @@
+html , body{
+    height: 100%;
+}
+
+body {
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
+  position: relative;
+  background-image: url(../img/img2.png);
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/*Navbar*/
+
+.navbar-default {
+  background-image: url(../img/img1.png);
+  border-color: #262b37;
+
+} 
+
+.navbar-default .navbar-brand {
+  color: #bbbbbb;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #bbbbbb;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #bbbbbb;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: black;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: black;
+}
+.navbar-default .navbar-toggle {
+  border-color: #262b37;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: black;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #bbbbbb;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #bbbbbb;
+}
+.navbar-default .navbar-link {
+  color: #bbbbbb;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}  
+
+.navbar-toggle {
+    margin-top: 14px;
+}
+
+.navbar-brand {
+  padding-left: 50px;
+}
+
+.navbar-right {
+  padding-right: 50px;
+}
+
+.navbar-nav>li>a, .navbar-brand {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Section */
+
+#about, #experience, #contact, #portfolio {
+  padding: 20px 50px 50px 50px;
+}
+#about {
+  background-image: url(../img/img4.png);
+  margin-bottom: 10px;
+}
+#contact ul {
+    margin:300px 10px 100px 10px;
+    text-decoration:none;
+    list-style: none;
+}
+
+#experience, #portfolio, #contact {
+  background-image: url(../img/img4.png);
+  margin-bottom: 10px;
+}
+#portfolio {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;  
+}
+.space {
+  padding-left: 30px;
+  
+}
+
+.nospace {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.topspace {
+  padding-top: 60px;
+}
+
+/* Images*/
+
+.img-responsive {
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+/* Text */
+
+p {
+  font-size:16px;
+  line-height:21px;
+  font-weight:400;
+  padding-bottom:22px;
+  margin:0;
+  text-align: justify;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.text-title {
+  text-decoration: none;
+  font-size:14px;
+  font-weight:400;
+  color: #FFF;
+}
+
+.text-category {
+  text-decoration: none;
+  font-size:12px;
+  font-weight:400;
+  color: #bbbbbb;
+  margin-top: 5px;
+}
+h1 {
+  white-space: nowrap;
+  font-size:34px;
+  line-height:90px;
+  font-weight:700;
+  margin:0;
+  padding-bottom:8px;
+}
+.col-md-8 {
+  font-size:16px;
+  line-height:21px;
+  padding-left: 20px;
+  padding-bottom:22px;
+  margin:0px;
+}
+
+
+
+/* Porfolio */
+
+#filters {
+  margin:.5%;
+  padding:0;
+  list-style:none;
+}
+
+#filters li {
+  float:left;
+}
+
+#filters li span {
+  display: block;
+  padding:5px 20px;   
+  margin-bottom: 10px;    
+  text-decoration:none;
+  color:black;
+  cursor: pointer;
+}
+
+#filters li span.active {
+  background: #00bdbd;
+  color:#fff;
+}
+
+
+#portfoliolist .portfolio {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  width:24%;
+  margin:.5%;
+  display:none;
+  float:left;
+  overflow:hidden;
+}
+
+.portfolio-wrapper {
+  overflow:hidden;
+  position: relative !important;
+  background: #666;
+  cursor:pointer;
+}
+
+.portfolio img {
+  max-width:100%;
+  position: relative;
+}
+
+.portfolio .label {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height:60px;
+  bottom:-60px;
+}
+
+.portfolio .label-bg {
+  background: #262b37;
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.portfolio .label-text {
+  color:#fff;
+  position: relative;
+  z-index:500;
+  padding:10px 10px;
+}
+
+.portfolio .text-category {
+  display:block;
+}
+#portfoliolist img{
+    width: 100%;
+    clear:both;
+}
+
+/* Google map */
+
+.showmap{
+        position: relative;
+        padding-bottom: 100%;
+        height: 0;
+        
+    }
+    .showmap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+/*Formulaire*/
+
+
+.form-style-6{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 16px;
+    background: #F7F7F7;
+    border-radius: 50px;
+
+}
+.form-style-6 h1{
+    background: url(../img/img2.png);
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+    border-radius: 50px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    box-shadow: 0 0 5px ;
+    padding: 3%;
+    border: 1px solid ;
+    border-radius: 50px;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: url(../img/img2.png);
+    border-bottom: 2px solid ;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+    border-radius: 50px;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+    background: url(../img/img5.png);
+    border-bottom: 2px solid;
+    
+
+
+}
+
+
+
+
+/*#Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .container{
+        width: 768px;
+    }
+    .img-responsive{
+      margin:auto;
+    }
+}
+
+/*#Mobile (Portrait) Note : Design for awidth of 320 px */
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 100%;
+        text-align: center;        
+    }
+    #portfoliolist .portfolio {
+        width: 48%;
+        margin: 1%;
+    }
+
+    #contact {
+        padding:0;
+    }
+    #contact ul {
+    margin:10px 10px 10px 10px;
+  }
+  .img-responsive{
+      margin:auto;
+    }
+}
+
+
+/* #Mobile (Landscape) Note : Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .img-responsive{
+      margin:auto;
+    }
+    
+}

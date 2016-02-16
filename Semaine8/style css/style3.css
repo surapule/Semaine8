@@ -1,0 +1,154 @@
+/*header{
+    background-image:url(img/school.png);
+    background-attachment:fixed;
+    background-repeat:repeat;
+    width:100%;
+    border-radius:20px;
+    border:2px solid black;
+    
+}
+main{
+    background-image:url(img/img2.png);
+    background-attachment:fixed;
+    background-repeat:repeat;
+    width:100%;
+    text-align:center;
+    border-radius:20px;
+    border:2px solid black;
+}
+footer{
+    background-attachment:fixed;
+    background-image:url(img/img4.png);
+    background-repeat:repeat;
+    width:100%;
+    clear:both;
+    text-align:center;
+    border-radius:20px;
+    border:2px solid black;
+}
+.conteneur{
+    width:100%;
+    max-width:960px;
+    padding:10px 10px 10px 10px;
+    margin:auto;
+    overflow:auto;
+    font-family:Serif,Verdana;
+    
+}
+img{
+    height:35%;
+    width:35%;
+    position:relative;
+    border-radius:10px;
+}
+.info{
+    float:right;
+    position:relative;
+    width:45%;
+    margin-right:30px;
+}
+.colonne_1{
+    width:30%;
+    float:left;
+    padding:10px 10px 10px 10px;
+    box-shadow:2px 2px 2px black;
+}
+.colonne_2{
+    width:30%;
+    float:right;
+    margin-right:18px;
+    padding:10px 10px 10px 10px;
+    box-shadow:2px 2px 2px black;
+   
+}
+.colonne_3{
+    width:30%;
+    overflow:auto;
+    margin:auto;
+    padding:10px 10px 10px 10px;
+    box-shadow:2px 2px 2px black;
+}
+.carte{
+    width:50%;
+    float:left;
+}
+.contact{
+    width:40%;
+    float:right;
+    margin-right:18px;
+    margin-left:30px;
+} */
+    
+ /*rajout lié simplon
+ propiété globale portfolio*/   
+
+ #portfolio{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+    background: #fcf8e3;
+    border: 1px solid #fbeed5;
+    width: 95%;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+ } 
+
+ #portfolio .portfolio-wrapper{
+    padding:10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+ }  
+
+ #portfolio a {
+    color:#c09853;
+    text-decoration: none;
+}
+
+#portfolio p {
+    margin: 5px 0 0 0;
+}
+
+.container{
+    position: relative;
+    width: 960px;
+}
+
+
+/*#Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .container{
+        width: 768px;
+    }
+}
+
+/*#Mobile (Portrait) Note : Design for awidth of 320 px */
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 95%;
+    }
+    #portfoliolist .portfolio {
+        width: 48%;
+        margin: 1%;
+    }
+
+    #ads {
+        display:none;
+    }
+}
+
+
+/* #Mobile (Landscape) Note : Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container{
+        width: 70%;
+    }
+    #ads {
+        display:none;
+    }
+}
