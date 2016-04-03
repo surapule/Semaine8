@@ -15,7 +15,7 @@ body {
   overflow-x: hidden;
 }
 
-/*Navbar*/
+/*Navbar*/git 
 
 .navbar-default {
   background-image: url(../img/img1.png);
@@ -122,13 +122,16 @@ body {
   padding-top: 60px;
 }
 
-/* Images*/
+/* Images & btn*/
 
 .img-responsive {
   border-radius: 50%;
   margin-left: 50px;
 }
 
+.space p{
+	margin-top: 50px;
+}
 /* Text */
 
 p {
